@@ -1,0 +1,28 @@
+{
+    "Quiz": {
+        "title": "Quiz A",
+		"Questions": [ {
+                "label": "What's your name ?",
+                "answers":[
+                    "Karim",
+                    "Jean-Jacques",
+                    "Martin"
+                ],
+                "correctAnswers":[
+                    "Karim"
+                ]
+            },
+            {
+                "label": "How old are you ?",
+                "answers":[
+                    "18",
+                    "22",
+                    "45"
+                ],
+                "correctAnswers":[
+                    "22"
+                ]
+            }
+        ]
+    }
+}

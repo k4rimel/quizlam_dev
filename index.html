@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- LIBS
+	<script type="text/javascript" src="lib/vendor/jquery.js"></script> -->
+	<script type="text/javascript" src="lib/vendor/doT.js"></script>
+	<script type="text/javascript" src="lib/vendor/zepto.min.js"></script>
+	<script type="text/javascript" src="lib/util.js"></script>
+	<script type="text/javascript" src="src/app.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="css/vendor/"> -->
+
+	<!-- CONTROLLERS -->
+	<script type="text/javascript" src="src/controllers/quizController.js"></script>
+	<script type="text/javascript" src="src/controllers/quizManagerController.js"></script>
+	
+	<!-- MODELS -->
+	<script type="text/javascript" src="src/models/quizModel.js"></script>
+	<script type="text/javascript" src="src/models/managerModel.js"></script>
+	
+	<!-- VIEWS -->
+	<script type="text/javascript" src="src/views/quizView.js"></script>
+	<script type="text/javascript" src="src/views/quizManagerView.js"></script>
+
+
+	<title>Quizlam</title>
+</head>
+<body>
+	<h1>QUIZ DEMO</h1>
+	<div id="mainContainer"></div>
+	<div id="quizContainer"></div>
+	<script>
+		document.onreadystatechange = function () {
+		  	var state = document.readyState;
+			if (state == 'complete') {
+		      bootstrapper();
+		  	}
+		}
+	</script>
+</body>
+</html>

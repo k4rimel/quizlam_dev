@@ -1,0 +1,15 @@
+<div class="quizTitle">
+	<h1>{{=it.quizTitle}}</h1>
+</div>
+<div class="question" data-correct-answer='' data-hidden="true">
+	{{~it.questions :value:index}}
+	<div>{{=value.label}}</div>
+	{{~}}
+</div>
+<div class="props">
+	<div>{{~value.answers :value:index}}</div>
+	<input type="checkbox" data-id=''/><label data-id=''>{{=value}}</label><br>
+	{{~}}
+</div>
+<div class="submit button">Submit</div>
+<div class="next button" data-hidden="true">Next</div>

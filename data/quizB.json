@@ -1,0 +1,28 @@
+{
+    "Quiz": {
+        "title": "Quiz B",
+		"Questions": [ {
+                "label": "Where do you live ?",
+                "answers":[
+                    "Paris",
+                    "Moscow",
+                    "Montpellier"
+                ],
+                "correctAnswers":[
+                    "Montpellier"
+                ]
+            },
+            {
+                "label": "What is your job ?",
+                "answers":[
+                    "Doctor",
+                    "Carpenter",
+                    "Developper"
+                ],
+                "correctAnswers":[
+                    "Developper"
+                ]
+            }
+        ]
+    }
+}
